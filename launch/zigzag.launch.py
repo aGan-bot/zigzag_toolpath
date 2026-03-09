@@ -12,7 +12,7 @@ def generate_launch_description():
             executable="static_transform_publisher",
             arguments=[
                 "0.6", "0.1", "0.2",
-                "0", "0", "1.5",
+                "0", "0", "0",
                 "base",
                 "surface_frame"
             ]

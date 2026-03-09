@@ -12,7 +12,8 @@ Tested on: ROS2 Humble
 - geometry_msgs
 - trajectory_msgs
 - moveit_msgs
-
+- tf_transformations
+  
 ## 🔧 Installation
 ```bash
 cd ~/ros2_ws/src
@@ -23,7 +24,7 @@ source install/setup.bash
 ```
 
 ## Use
-Sure about ros2 control command interface is position in fr3_ros_controllers.yaml
+Sure about ros2 control command interface is #position in fr3_ros_controllers.yaml
 
 Terminal 1
 ```bash

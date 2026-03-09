@@ -6,7 +6,7 @@ package_name = 'zigzag_toolpath'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.1.0',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -19,9 +19,9 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='as',
-    maintainer_email='as@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer_email='agans@outlook.com',
+    description='creating zigzag toolpath around tf acorrding ...',
+    license='MIT',
     extras_require={
         'test': [
             'pytest',
